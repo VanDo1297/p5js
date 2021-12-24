@@ -27,7 +27,7 @@ Agent.prototype.update1=function(t,e,i){
       agentAlpha=255,
       strokeWidth=.3;
     function setup(){
-      createCanvas(windowWidth,windowHeight),
+      createCanvas(windowWidth ,windowHeight),
       agentCount=windowHeight*.75;
       for(let t=0;t<agentCount;t++)agents[t]=new Agent
     }
